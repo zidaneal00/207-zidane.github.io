@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #fff;
+}
+ul{
+	list-style: none;
+	margin: top: 20px;
+	position: absolute;
+	top: 70%;
+	left: 35%;
+	right: 0%;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: yellow;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	font-size: 18px;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.a{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("body.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: white; 
+	font-size: 20px;
+}
+.b{
+ list-style-type: none;
+ margin: top: 20px;
+ position: absolute;
+}
+.container{
+	width: 100%;
+	margin: auto;
+	background: url("body.jpg");
+	height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    display: block;
+}
+.satu{
+	height: 1000px;
+	background: #123;
+}
+.dua{
+	height: 500px;
+	width: 100%;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tiga{
+	height: 500px;
+	background: #123;
+}
+h1{
+	text-align: center;
+	font-family: arial;
+	font-size: 100px;
+	color: #fff;
+	line-height: 500px;
+	text-transform: lowercase;
+}
+.col{
+	text-align: center;
+	font-family: arial;
+	font-size: 100px;
+	color: #fff;
+	line-height: 1000px;
+	text-transform: lowercase;
+}
+.empat{
+	height: 500px;
+	width: 100%;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lima{
+	height: 700px;
+	background: #123;
+}
+.enam{
+	height: 500px;
+	width: 100%;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tujuh{
+	height: 1000px;
+	background: #123;
+}
